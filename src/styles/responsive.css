@@ -1,0 +1,250 @@
+
+@media screen and (max-width: 1100px){
+    .contenedor {
+        flex-flow: row wrap;
+    }
+
+    .contenedor img {
+        width: 580px;
+        height: 618px;
+    }
+
+    .circulo-blanco{
+        margin-top: 440px;
+        margin-left: 400px;
+    }
+
+    .contenido-derecho {
+        height: 546px;
+        width: 422px;
+        margin-top: 50px;
+    }
+
+    .recuadroh5 {
+        font-size: 25px;
+    }
+
+    .recuadro-h2 {
+        /* background-color: aqua; */
+        line-height: 1.4;
+        width: 340px;
+        font-size: 35px;
+    }
+
+    .recuadro-parrafo-principal {
+        /* background-color: chartreuse; */
+        width: 340px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    .contenedor img {
+        width: 550px;
+        height: 560px;
+        margin-left: -50px;
+    }
+
+    .circulo-blanco{
+        margin-top: 400px;
+        margin-left: 300px;
+    }
+
+    .recuedro-radius {
+        /* background-color: blueviolet; */
+        margin-left: 30px;
+        width: 280px;
+        height: 470px;
+    }
+
+    .contenido-derecho {
+        /* background-color: red; */
+        height: 527px;
+        width: 329px;
+        margin-top: 20px;
+        padding-left: 0px;
+        margin-left: -25px;
+    }
+
+    .recuadroh5 {
+        font-size: 20px;
+    }
+    .recuadro-h2 {
+        /* background-color: aqua; */
+        width: 275px;
+        height: 110px;
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .recuadro-parrafo-principal {
+        /* background-color: chartreuse; */
+        width: 275px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 820px){
+
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .boton-menu {
+        position: absolute;
+        margin-left: 230px;
+    }
+
+    .contenedor img {
+        width: 550px;
+        height: 550px;
+        margin-left: -70px;
+    }
+
+    .circulo-blanco{
+        margin-top: 400px;
+        margin-left: 230px;
+    }
+
+    .contenido-derecho {
+        /* background-color: crimson; */
+        height: 480px;
+        width: 300px;
+        margin-left: -50px;
+    }
+
+    .recuadro-h2 {
+        /* background-color: aqua; */
+        height: 100px;
+        width: 260px;
+    }
+
+    .recuadro-parrafo-principal {
+        /* background-color: coral; */
+        font-size: 17px;
+        width: 260px;
+    }
+
+    .recuedro-radius {
+        /* background-color: cornflowerblue; */
+        width: 260px;
+        height: 480px;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .contenedor img {
+        margin-left: 0px;
+    }
+
+    .circulo-blanco{
+        margin-bottom: 30px;
+        margin-left: 420px;
+    }
+
+    .contenido-derecho {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        /* background-color: crimson; */
+        height: 450px;
+        width: 470px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .recuedro-radius {
+        /* background-color: cornflowerblue; */
+        width: 400px;
+        height: 380px;
+    }
+
+    .recuadro-h2 {
+            /* background-color: aqua; */
+            height: 100px;
+            width: 400px;
+        }
+
+    .recuadro-parrafo-principal {
+        /* background-color: coral; */
+        font-size: 18px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        display: block;
+        height: 190px;
+      }
+
+    .input-lupa {
+        display: flex;
+        position: relative;
+        margin-left: 150px;
+    }
+
+    .boton-menu {
+        margin-top: 70px;
+    }
+
+    .contenedor img {
+        width: 480px;
+        height: 500px;
+    }
+
+    .circulo-blanco{
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 315px;
+    }
+
+    .contenido-derecho {
+        /* background-color: crimson; */
+        height: 480px;
+        width: 350px;
+        margin-left: 30px;
+        
+    }
+
+    .recuedro-radius {
+        /* background-color: cornflowerblue; */
+        width: 300px;
+        height: 420px;
+    }
+
+    .recuadro-h2 {
+        /* background-color: aqua; */
+        width: 300px;
+    }
+
+    .recuadro-parrafo-principal {
+        /* background-color: coral; */
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .recuadroh5 {
+        font-size: 25px;
+    }
+
+}
+
+/* 
+laptop: 1040px
+tablet: 820px
+horizontal-phone: 640px
+phone: 440px
+ */

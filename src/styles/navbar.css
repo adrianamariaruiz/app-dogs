@@ -1,0 +1,128 @@
+
+
+.navbar {
+  width: 100%;
+  height: 76px;
+  background-color: white;
+  border: 1px solid #c0c0c0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  position: relative;
+  
+}
+
+.logo {
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.boton-menu {
+  background-color: white;
+  border-style: none;
+  height: 36px;
+  width: 36px;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.menu-input-search {
+  display: flex;
+  position: relative;
+}
+
+.input-lupa {
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-style: solid;
+  height: 40px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+input {
+  width: 162px;
+  height: 36px;
+  padding: 4px 2px 1px 12.8px;
+  border-style: none;
+  color: #c0c0c0;
+  font-size: 16px;
+  position: absolute;
+}
+
+.boton-search {
+  margin-left: 0;
+  background-color: white;
+  border-style: none;
+  width: 36px;
+  height: 36px;
+  padding-top: 4px;
+  margin-left: 160px;
+  color: #c0c0c0;
+  cursor: pointer;
+  position: absolute;
+
+}
+
+.nav-menu {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  /* left: 0px; */
+  left: -100%;
+  transition: 200ms;
+  z-index: 5;
+}
+
+.animate__fadeIn{
+  animation-duration: 2s;
+}
+
+.nav-menu.active {
+  display: block;
+  left: 0px;
+  transition: 200ms;
+}
+
+.animate__fadeOutLeft{
+  animation-duration: 2s;
+}
+
+/* .animate__fadeOut{
+  animation-duration: 1s;
+} */
+
+.nav-menu-items{
+  background-color: rgba(0, 0, 0, 0.95);
+  width: 250px;
+  height: 100vh;
+}
+
+.nav-text {
+  color: white;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 30px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.close-x {
+  color: white;
+  height: 40px;
+  width: 40px;
+  margin-left: 200px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+

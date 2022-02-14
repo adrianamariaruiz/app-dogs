@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=PT+Sans&family=Roboto&display=swap');
+
+.contenedor {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/69341f2c680d50968d587577/fgd.jpg);
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.contenedor img {
+    width: 780px;
+}
+
+.circulo-blanco{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 600px;
+    background-color: white;
+    height: 136px;
+    width: 136px;
+    border-radius: 50%;
+}
+
+.contenido-derecho {
+    background-color: white;
+    border-radius: 50px;
+    height: 536px;
+    width: 524px;
+    margin-top: 180px;
+    display: flex;
+}
+
+.recuedro-radius {
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    margin: 40px auto 30px 50px;
+}
+
+.boton-read-more .read-more {
+    background-color: #292d33;
+    color: #f2f2f2;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    border-style: none;
+    text-align: center;
+    font-weight: 300;
+    margin: 27px auto 0 0;
+    padding: 14px 52px 16px 51px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.read-more:hover{
+    background-color: #f1c50e;
+}
+
+.recuadroh5 {
+    /* background-color: burlywood; */
+    width: 424px;
+    height: 24px;
+    font-size: 25px;
+    line-height: 1.3;
+    letter-spacing: 6px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: left;
+    margin: 0 auto 0 0;
+}
+
+.recuadro-h2 {
+    /* background-color: darkseagreen; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 424px;
+    height: 160px;
+    text-align: left;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    margin: 9px 0 0;
+}
+
+.recuadro-parrafo-principal {
+    /* background-color: aquamarine; */
+    width: 424px;
+    font-size: 1.125rem;
+    line-height: 2;
+    text-align: left;
+    margin: 20px 0 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.recuadro-freepik {
+    margin: 18px auto 0 0;
+    font-style: italic;
+    font-size: 1.25rem;
+}

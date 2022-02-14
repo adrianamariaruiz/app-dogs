@@ -1,0 +1,17 @@
+
+.contenedor-aside {
+    background-color: #333333;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-aside .cont-parrafo {
+    width: 417px;
+    height: 44.7px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
